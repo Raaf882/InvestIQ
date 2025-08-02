@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: InvestIQ\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-15 12:00+0000\n"
+"PO-Revision-Date: 2023-06-15 12:00+0000\n"
+"Last-Translator: InvestIQ Team <support@investiq.example.com>\n"
+"Language-Team: InvestIQ <support@investiq.example.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Poedit 3.0.1\n"
+
+msgid "Please login to access InvestIQ platform"
+msgstr "الرجاء تسجيل الدخول للوصول إلى منصة InvestIQ"
+
+msgid "Home"
+msgstr "الرئيسية"
+
+msgid "Cities"
+msgstr "المدن"
+
+msgid "Sectors"
+msgstr "القطاعات"
+
+msgid "Market Indicators"
+msgstr "مؤشرات السوق"
+
+msgid "Personalized Opportunities"
+msgstr "فرص مخصصة"
+
+msgid "AI Recommendations"
+msgstr "توصيات الذكاء الاصطناعي"
+
+msgid "My Settings"
+msgstr "إعداداتي"
+
+msgid "Logout"
+msgstr "تسجيل الخروج"
+
+msgid "Market Overview"
+msgstr "نظرة عامة على السوق"
+
+msgid "Browse opportunities by location"
+msgstr "تصفح الفرص حسب الموقع"
+
+msgid "Browse by sector"
+msgstr "تصفح حسب القطاع"
+
+msgid "Live Dashboard"
+msgstr "لوحة المؤشرات الحية"
+
+msgid "Content Based on My Preferences"
+msgstr "محتوى مخصص بناءً على تفضيلاتي"
+
+msgid "Dynamic Suggestions"
+msgstr "اقتراحات ديناميكية"
+
+msgid "Edit User Preferences"
+msgstr "تعديل التفضيلات"
+
+msgid "Welcome to InvestIQ"
+msgstr "مرحباً بكم في InvestIQ"
+
+msgid "First Smart Step: Choose your city in Asir region"
+msgstr "الخطوة الذكية الأولى: اختر مدينتك في منطقة عسير"
+
+msgid "Define your city and take a smart look at its opportunities"
+msgstr "حدد مدينتك وألق نظرة ذكية على فرصها"
+
+msgid "This is where conscious investing begins, city by city"
+msgstr "هنا يبدأ الاستثمار الواعي، مدينة تلو الأخرى"
+
+msgid "The data is in front of you... choose where you want to dig your gold!"
+msgstr "البيانات أمامك... اختر أين تريد أن تحفر ذهبك!"
+
+msgid "Based on your previous interests, we recommend starting with:"
+msgstr "بناءً على اهتماماتك السابقة، نوصي بالبدء بـ:"
+
+msgid "High Demand"
+msgstr "طلب عالي"
+
+msgid "High Saturation"
+msgstr "تشبع عالي"
+
+msgid "Emerging Opportunities"
+msgstr "فرص ناشئة"

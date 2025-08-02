@@ -1,0 +1,236 @@
+/* =======================
+   Base Styles
+======================= */
+.investiq-onboarding {
+    @apply max-w-4xl mx-auto my-8 p-8 bg-white dark:bg-gray-800 rounded-xl shadow-lg;
+}
+
+.onboarding-header {
+    @apply text-center mb-12;
+}
+
+.onboarding-header h1 {
+    @apply text-3xl font-bold text-blue-600 dark:text-blue-400 mb-2;
+}
+
+.onboarding-header p {
+    @apply text-lg text-gray-600 dark:text-gray-300;
+}
+
+/* =======================
+   Form Sections
+======================= */
+.onboarding-form .form-section {
+    @apply mb-8 pb-6 border-b border-gray-200 dark:border-gray-700;
+}
+.onboarding-form .form-section:last-child {
+    border-bottom: none;
+}
+
+.onboarding-form h3 {
+    @apply text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200;
+}
+
+.onboarding-form p {
+    @apply text-gray-600 dark:text-gray-400 mb-6;
+}
+
+/* =======================
+   Grid Layouts
+======================= */
+.cities-grid,
+.sectors-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-6;
+}
+
+/* =======================
+   Card-style Checkboxes
+======================= */
+.city-checkbox,
+.sector-checkbox {
+    @apply block p-4 bg-gray-50 dark:bg-gray-700 rounded-lg cursor-pointer transition-all duration-200 border border-transparent;
+}
+
+.city-checkbox:hover,
+.sector-checkbox:hover {
+    @apply bg-blue-50 dark:bg-gray-600 border-blue-200;
+}
+
+.city-checkbox.selected,
+.sector-checkbox.selected {
+    @apply bg-green-50 dark:bg-gray-600 border-blue-500;
+    box-shadow: 0 0 0 1px #3b82f6; /* Tailwind blue-500 */
+}
+
+.city-checkbox input,
+.sector-checkbox input {
+    @apply hidden;
+}
+
+.city-name,
+.sector-name {
+    @apply font-medium block mb-1 text-gray-800 dark:text-gray-200;
+}
+
+.city-stats {
+    @apply flex justify-between items-center text-sm text-gray-500 dark:text-gray-400;
+}
+
+.city-stats .opportunities {
+    @apply font-semibold;
+}
+
+.city-stats .demand-icon {
+    @apply text-base;
+}
+
+/* Demand Icon Colors */
+.demand-icon.high {
+    @apply text-red-500;
+}
+
+.demand-icon.medium {
+    @apply text-blue-500;
+}
+
+.demand-icon.low {
+    @apply text-yellow-500;
+}
+
+/* =======================
+   Capital Select
+======================= */
+.capital-select {
+    @apply w-full max-w-xs mb-6;
+}
+
+/* =======================
+   Risk Levels
+======================= */
+.risk-levels {
+    @apply grid grid-cols-1 md:grid-cols-3 gap-4;
+}
+
+.risk-option {
+    @apply p-4 bg-gray-50 dark:bg-gray-700 rounded-lg cursor-pointer transition-all duration-200 border border-transparent;
+}
+
+.risk-option:hover {
+    @apply bg-blue-50 dark:bg-gray-600 border-blue-200;
+}
+
+.risk-option.selected {
+    @apply bg-green-50 dark:bg-gray-600 border-blue-500;
+    box-shadow: 0 0 0 1px #3b82f6;
+}
+
+.risk-option input {
+    @apply hidden;
+}
+
+.risk-label {
+    @apply font-semibold block mb-1 text-gray-800 dark:text-gray-200;
+}
+
+.risk-description {
+    @apply text-sm text-gray-500 dark:text-gray-400 block;
+}
+
+/* =======================
+   Form Actions
+======================= */
+.form-actions {
+    @apply text-center mt-12;
+}
+
+.submit-btn {
+    @apply px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-200;
+}
+
+/* =======================
+   Loading Spinner
+======================= */
+.loading-spinner {
+    @apply inline-block w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin;
+}
+
+/* =======================
+   Toast Notifications
+======================= */
+.toast-notification {
+    @apply fixed bottom-4 right-4 p-4 bg-gray-800 text-white rounded-lg shadow-lg transition-all duration-300;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.toast-notification.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.toast-notification.success {
+    @apply bg-green-600;
+}
+
+.toast-notification.error {
+    @apply bg-red-600;
+}
+
+/* =======================
+   Responsive Tweaks
+======================= */
+@media (max-width: 768px) {
+    .investiq-onboarding {
+        @apply p-6;
+    }
+}
+
+@media (max-width: 640px) {
+    .investiq-onboarding {
+        @apply p-4;
+    }
+
+    .onboarding-header h1 {
+        @apply text-2xl;
+    }
+
+    .cities-grid,
+    .sectors-grid {
+        @apply grid-cols-1;
+    }
+}
+
+/* =======================
+   Accessibility
+======================= */
+[aria-invalid="true"] {
+    @apply border-red-500;
+}
+
+[aria-describedby] {
+    @apply border-blue-500;
+}
+
+/* =======================
+   Focus States
+======================= */
+button:focus,
+input:focus,
+select:focus {
+    @apply outline-none ring-2 ring-blue-400 ring-offset-2;
+}
+
+/* =======================
+   Dark Mode Fixes
+======================= */
+.dark .city-checkbox,
+.dark .sector-checkbox,
+.dark .risk-option {
+    @apply bg-gray-700 border-gray-600;
+}
+
+.dark .city-checkbox:hover,
+.dark .sector-checkbox:hover,
+.dark .risk-option:hover {
+    @apply bg-gray-600;
+}

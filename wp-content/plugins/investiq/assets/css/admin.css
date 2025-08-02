@@ -1,0 +1,149 @@
+.investiq-admin {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Tajawal', 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+.investiq-admin h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #1E2A38;
+}
+
+.admin-actions {
+    margin-bottom: 1.5rem;
+}
+
+.city-form-container, .sector-form-container, .opportunity-form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e0e0e0;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.form-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.form-actions {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.wp-list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wp-list-table th {
+    background-color: #f5f5f5;
+    padding: 0.75rem;
+    text-align: right;
+    font-weight: 500;
+}
+
+.wp-list-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #eee;
+}
+
+.demand-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.demand-badge.high {
+    background-color: rgba(244, 67, 54, 0.1);
+    color: #f44336;
+}
+
+.demand-badge.medium {
+    background-color: rgba(76, 175, 80, 0.1);
+    color: #4CAF50;
+}
+
+.demand-badge.low {
+    background-color: rgba(255, 152, 0, 0.1);
+    color: #ff9800;
+}
+
+.status-active {
+    color: #4CAF50;
+    font-weight: 500;
+}
+
+.status-inactive {
+    color: #f44336;
+    font-weight: 500;
+}
+
+.risk-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.risk-badge.low {
+    background-color: rgba(76, 175, 80, 0.1);
+    color: #4CAF50;
+}
+
+.risk-badge.medium {
+    background-color: rgba(255, 152, 0, 0.1);
+    color: #ff9800;
+}
+
+.risk-badge.high {
+    background-color: rgba(244, 67, 54, 0.1);
+    color: #f44336;
+}
+
+.sector-icon {
+    font-size: 1.25rem;
+}
+
+@media (max-width: 782px) {
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .wp-list-table th, .wp-list-table td {
+        padding: 0.5rem;
+    }
+}

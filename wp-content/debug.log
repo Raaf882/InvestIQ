@@ -1,0 +1,398 @@
+[02-Aug-2025 10:44:47 UTC] PHP Parse error:  syntax error, unexpected token "public", expecting end of file in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 70
+[02-Aug-2025 11:43:47 UTC] WordPress database error Unknown column 'region' in 'WHERE' for query SELECT * FROM wp_investiq_cities WHERE region = 'عسير' made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/hello-biz/index.php'), get_header, do_action('get_header'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_header, require('/plugins/pro-elements/modules/theme-builder/views/theme-support-header.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_scripts, do_action('wp_enqueue_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, InvestIQ_Dashboard->load_assets, InvestIQ_Dashboard->load_scripts, InvestIQ_Dashboard->get_cities
+[02-Aug-2025 11:43:47 UTC] WordPress database error Table 'u787703943_Sxv6I.wp_investiq_projects' doesn't exist for query SHOW FULL COLUMNS FROM `wp_investiq_projects` made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/hello-biz/index.php'), get_header, do_action('get_header'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_header, require('/plugins/pro-elements/modules/theme-builder/views/theme-support-header.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_scripts, do_action('wp_enqueue_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, InvestIQ_Dashboard->load_assets, InvestIQ_Dashboard->load_scripts, InvestIQ_Dashboard->get_projects
+[02-Aug-2025 11:43:47 UTC] WordPress database error Table 'u787703943_Sxv6I.wp_investiq_projects' doesn't exist for query SHOW FULL COLUMNS FROM `wp_investiq_projects` made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/hello-biz/index.php'), get_header, do_action('get_header'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Modules\ThemeBuilder\Classes\Theme_Support->get_header, require('/plugins/pro-elements/modules/theme-builder/views/theme-support-header.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_scripts, do_action('wp_enqueue_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, InvestIQ_Dashboard->load_assets, InvestIQ_Dashboard->load_scripts, InvestIQ_Dashboard->get_projects
+[02-Aug-2025 11:43:47 UTC] WordPress database error Table 'u787703943_Sxv6I.wp_investiq_projects' doesn't exist for query SHOW FULL COLUMNS FROM `wp_investiq_projects` made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/hello-biz/index.php'), get_template_part, locate_template, load_template, require('/themes/hello-biz/template-parts/single.php'), the_content, apply_filters('the_content'), WP_Hook->apply_filters, Elementor\Frontend->apply_builder_in_content, Elementor\Frontend->get_builder_content, Elementor\Core\Base\Document->print_elements_with_wrapper, Elementor\Core\Base\Document->print_elements, do_shortcode, preg_replace_callback, do_shortcode_tag, Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}, Elementor\Element_Base->print_element, Elementor\Widget_Base->print_content, Elementor\Widget_Base->render_content, Elementor\Controls_Stack->render_by_mode, Elementor\Widget_Shortcode->render, do_shortcode, preg_replace_callback, do_shortcode_tag, InvestIQ_Dashboard->render_dashboard, InvestIQ_Dashboard->get_sectors
+[02-Aug-2025 11:43:47 UTC] WordPress database error Table 'u787703943_Sxv6I.wp_investiq_projects' doesn't exist for query SHOW FULL COLUMNS FROM `wp_investiq_projects` made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/hello-biz/index.php'), get_template_part, locate_template, load_template, require('/themes/hello-biz/template-parts/single.php'), the_content, apply_filters('the_content'), WP_Hook->apply_filters, Elementor\Frontend->apply_builder_in_content, Elementor\Frontend->get_builder_content, Elementor\Core\Base\Document->print_elements_with_wrapper, Elementor\Core\Base\Document->print_elements, do_shortcode, preg_replace_callback, do_shortcode_tag, Elementor\Modules\ElementCache\Module->Elementor\Modules\ElementCache\{closure}, Elementor\Element_Base->print_element, Elementor\Widget_Base->print_content, Elementor\Widget_Base->render_content, Elementor\Controls_Stack->render_by_mode, Elementor\Widget_Shortcode->render, do_shortcode, preg_replace_callback, do_shortcode_tag, InvestIQ_Dashboard->render_dashboard, InvestIQ_Dashboard->get_sectors
+[02-Aug-2025 11:50:43 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:90
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(82): InvestIQ_Plugin->__construct()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(67): InvestIQ_Plugin::get_instance()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#10 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 90
+[02-Aug-2025 12:12:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_create_nonce() in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:71
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/admin.php(35): require_once('/home/u78770394...')
+#4 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 71
+[02-Aug-2025 12:12:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_create_nonce() in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:71
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/admin.php(35): require_once('/home/u78770394...')
+#4 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 71
+[02-Aug-2025 12:12:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_create_nonce() in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:71
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/admin.php(35): require_once('/home/u78770394...')
+#4 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 71
+[02-Aug-2025 12:12:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_create_nonce() in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:71
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#4 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#5 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 71
+[02-Aug-2025 12:12:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_create_nonce() in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:71
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#4 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#5 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 71
+[02-Aug-2025 12:13:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_create_nonce() in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:71
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#4 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#5 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 71
+[02-Aug-2025 12:16:01 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq (1)/investiq.php:83
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/includes/plugin.php(2387): include_once()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/includes/plugin.php(673): plugin_sandbox_scrape()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/plugins.php(60): activate_plugin()
+#3 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq (1)/investiq.php on line 83
+[02-Aug-2025 12:24:32 UTC] PHP Parse error:  syntax error, unexpected token ":", expecting ")" in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq (1)/includes/class-admin.php on line 202
+[02-Aug-2025 12:26:29 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq (1)/investiq.php:87
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq (1)/investiq.php(79): InvestIQ_Plugin->__construct()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq (1)/investiq.php(67): InvestIQ_Plugin::get_instance()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#10 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq (1)/investiq.php on line 87
+[02-Aug-2025 12:28:48 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:87
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(79): InvestIQ_Plugin->__construct()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(67): InvestIQ_Plugin::get_instance()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/admin.php(35): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/plugins.php(10): require_once('/home/u78770394...')
+#10 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 87
+[02-Aug-2025 12:29:14 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function InvestIQ_Dashboard::__construct(), 0 passed in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 63 and exactly 1 expected in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/includes/class-dashboard.php:26
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(63): InvestIQ_Dashboard->__construct()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(55): InvestIQ_Plugin->__construct()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(163): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once('/home/u78770394...')
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#7 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#8 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/includes/class-dashboard.php on line 26
+[02-Aug-2025 12:29:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function InvestIQ_Dashboard::__construct(), 0 passed in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 63 and exactly 1 expected in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/includes/class-dashboard.php:26
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(63): InvestIQ_Dashboard->__construct()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(55): InvestIQ_Plugin->__construct()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(163): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once('/home/u78770394...')
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#7 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#8 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/includes/class-dashboard.php on line 26
+[02-Aug-2025 12:32:39 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function InvestIQ_Dashboard::__construct(), 0 passed in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 63 and exactly 1 expected in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/includes/class-dashboard.php:26
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(63): InvestIQ_Dashboard->__construct()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(55): InvestIQ_Plugin->__construct()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(163): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once('/home/u78770394...')
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#7 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#8 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/includes/class-dashboard.php on line 26
+[02-Aug-2025 12:33:11 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:64
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(55): InvestIQ_Plugin->__construct()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(163): InvestIQ_Plugin::get_instance()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once('/home/u78770394...')
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#6 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#7 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 64
+[02-Aug-2025 12:33:21 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:64
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(55): InvestIQ_Plugin->__construct()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(163): InvestIQ_Plugin::get_instance()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once('/home/u78770394...')
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#6 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#7 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 64
+[02-Aug-2025 12:34:42 UTC] PHP Fatal error:  Uncaught Error: Class "InvestIQ_Dashboard" not found in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:63
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(55): InvestIQ_Plugin->__construct()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(163): InvestIQ_Plugin::get_instance()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once('/home/u78770394...')
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#6 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#7 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 63
+[02-Aug-2025 12:44:35 UTC] PHP Warning:  file_get_contents(/home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php): Failed to open stream: No such file or directory in /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/functions.php on line 6900
+[02-Aug-2025 12:47:33 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:118
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(108): InvestIQ_Plugin->load_dependencies()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(99): InvestIQ_Plugin->init()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(80): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/admin-ajax.php(22): require_once('/home/u78770394...')
+#10 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 118
+[02-Aug-2025 12:47:35 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:118
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(108): InvestIQ_Plugin->load_dependencies()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(99): InvestIQ_Plugin->init()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(80): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/admin.php(35): require_once('/home/u78770394...')
+#10 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/plugins.php(10): require_once('/home/u78770394...')
+#11 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 118
+[02-Aug-2025 12:47:38 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:118
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(108): InvestIQ_Plugin->load_dependencies()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(99): InvestIQ_Plugin->init()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(80): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/admin.php(35): require_once('/home/u78770394...')
+#10 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/plugins.php(10): require_once('/home/u78770394...')
+#11 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 118
+[02-Aug-2025 12:47:40 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:118
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(108): InvestIQ_Plugin->load_dependencies()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(99): InvestIQ_Plugin->init()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(80): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/admin.php(35): require_once('/home/u78770394...')
+#10 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/plugins.php(10): require_once('/home/u78770394...')
+#11 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 118
+[02-Aug-2025 12:48:05 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:118
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(108): InvestIQ_Plugin->load_dependencies()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(99): InvestIQ_Plugin->init()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(80): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/admin.php(35): require_once('/home/u78770394...')
+#10 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/plugins.php(10): require_once('/home/u78770394...')
+#11 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 118
+[02-Aug-2025 12:49:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_create_nonce() in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:71
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/admin.php(35): require_once('/home/u78770394...')
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/plugins.php(10): require_once('/home/u78770394...')
+#5 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 71
+[02-Aug-2025 12:49:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_create_nonce() in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:71
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/admin.php(35): require_once('/home/u78770394...')
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/index.php(10): require_once('/home/u78770394...')
+#5 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 71
+[02-Aug-2025 12:49:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_create_nonce() in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:71
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(545): include_once()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/admin.php(35): require_once('/home/u78770394...')
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-admin/index.php(10): require_once('/home/u78770394...')
+#5 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 71
+[02-Aug-2025 12:49:42 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:118
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(108): InvestIQ_Plugin->load_dependencies()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(99): InvestIQ_Plugin->init()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(80): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#10 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#11 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 118
+[02-Aug-2025 12:49:44 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:118
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(108): InvestIQ_Plugin->load_dependencies()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(99): InvestIQ_Plugin->init()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(80): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#10 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#11 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 118
+[02-Aug-2025 12:50:37 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:118
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(108): InvestIQ_Plugin->load_dependencies()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(99): InvestIQ_Plugin->init()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(80): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#10 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#11 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 118
+[02-Aug-2025 12:54:43 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:118
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(108): InvestIQ_Plugin->load_dependencies()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(99): InvestIQ_Plugin->init()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(80): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#10 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#11 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 118
+[02-Aug-2025 12:55:08 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:118
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(108): InvestIQ_Plugin->load_dependencies()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(99): InvestIQ_Plugin->init()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(80): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#10 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#11 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 118
+[02-Aug-2025 12:55:52 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:118
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(108): InvestIQ_Plugin->load_dependencies()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(99): InvestIQ_Plugin->init()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(80): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#10 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#11 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 118
+[02-Aug-2025 12:56:50 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:118
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(108): InvestIQ_Plugin->load_dependencies()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(99): InvestIQ_Plugin->init()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(80): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#10 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#11 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 118
+[02-Aug-2025 12:59:32 UTC] PHP Fatal error:  Uncaught Error: Call to private InvestIQ_Onboarding::__construct() from scope InvestIQ_Plugin in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php:118
+Stack trace:
+#0 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(108): InvestIQ_Plugin->load_dependencies()
+#1 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(99): InvestIQ_Plugin->init()
+#2 /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php(80): InvestIQ_Plugin::get_instance()
+#3 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(324): investiq_init_plugin()
+#4 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/u787703943/domains/investiq-sa.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/u787703943/domains/investiq-sa.com/public_html/wp-settings.php(578): do_action()
+#7 /home/u787703943/domains/investiq-sa.com/public_html/wp-config.php(108): require_once('/home/u78770394...')
+#8 /home/u787703943/domains/investiq-sa.com/public_html/wp-load.php(50): require_once('/home/u78770394...')
+#9 /home/u787703943/domains/investiq-sa.com/public_html/wp-blog-header.php(13): require_once('/home/u78770394...')
+#10 /home/u787703943/domains/investiq-sa.com/public_html/index.php(17): require('/home/u78770394...')
+#11 {main}
+  thrown in /home/u787703943/domains/investiq-sa.com/public_html/wp-content/plugins/investiq/investiq.php on line 118
