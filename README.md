@@ -13,7 +13,7 @@
 ## اعضاء الفريق
 - Majd ALShahrani  [@majd2255](https://github.com/majd2255)
 - Maysoon Alswaid  [@MysoonA](https://github.com/MysoonA)
-- Shahad Asiri
+- Shahad Asiri  [@ShahdAsiri](https://github.com/ShahdAsiri)
 - Amjad Asiri      [@AmjadSA1](https://github.com/AmjadSA1)
 
 
