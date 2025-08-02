@@ -2,7 +2,7 @@
 
 <p align="center">منصة الاستثمار الذكي بعسير</p>
 <p align="center">
-<image src=""></p>
+<image src="https://github.com/Raaf882/InvestIQ/blob/main/InvestIQLogo.png"></p>
 
 
 ## InvestIQ
@@ -12,9 +12,9 @@
 ###
 ## اعضاء الفريق
 - Majd ALShahrani  [@majd2255](https://github.com/majd2255)
-- Maysoon Alswaid
+- Maysoon Alswaid  [@MysoonA](https://github.com/MysoonA)
 - Shahad Asiri
-- Amjad Asiri
+- Amjad Asiri      [@AmjadSA1](https://github.com/AmjadSA1)
 
 
 
@@ -25,7 +25,6 @@
 	<meta name="viewport" content="width=device-width" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="robots" content="noindex,nofollow" />
-	<title>WordPress &#8250; ReadMe</title>
 	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
 </head>
 <body>
